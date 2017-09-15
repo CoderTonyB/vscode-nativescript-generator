@@ -1,0 +1,57 @@
+{
+    "name": "vscode-nativescript-generator",
+    "displayName": "Generate Angular Style Nativescript Files in VS Code",
+    "description": "Easily add boilerplate Nativescript/Angular files to your Visual Studio Code project",
+    "version": "0.0.1",
+    "icon": "images/icon.png",
+    "publisher": "CoderTonyB",
+    "author": {
+        "name": "Tony Bellomo"
+    },
+    "engines": {
+        "vscode": "^1.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/toeknee581/vscode-nativescript-generator"
+    },
+    "bugs": {
+        "url": "https://github.com/toeknee581/vscode-nativescript-generator/issues"
+    },
+    "categories": [
+        "Other",
+        "Languages",
+        "Snippets"
+    ],
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "publish": "npm run vscode:prepublish &&  vsce publish"
+    },
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.addAngularNativeFiles",
+            "title": "Add Nativescript Page"
+        }],
+        "menus": {
+            "explorer/context": [{
+                "when": "",
+                "command": "extension.addAngularNativeFiles",
+                "group": "Add Files"
+            }]
+        }
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "rimraf": "^2.4.4",
+        "vscode": "^0.11.0"
+    },
+    "dependencies": {
+        "q": "^1.4.1"
+    }
+}
