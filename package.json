@@ -2,7 +2,7 @@
     "name": "vscode-nativescript-generator",
     "displayName": "Generate Angular Style Nativescript Files in VS Code",
     "description": "Easily add boilerplate Nativescript/Angular files to your Visual Studio Code project",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "icon": "images/icon.png",
     "publisher": "CoderTonyB",
     "author": {
