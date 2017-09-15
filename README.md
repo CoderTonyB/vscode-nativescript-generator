@@ -2,10 +2,14 @@
 
 # vscode-nativescript-generator
 
-This extension allows you to add easily add boilerplate Nativescript/Angular files to your Visual Studio Code project
+This extension allows you to easily add boilerplate Nativescript/Angular files to your Visual Studio Code project
 
-> Based on code from from[Sebastian Baar](https://github.com/sebastianbaar/vscode-add-angular2-files) VS Code Add Angular2 Files 
+> Based on code from from [Sebastian Baar](https://github.com/sebastianbaar/vscode-add-angular2-files) VS Code Add Angular2 Files 
 > and [Josh Sommer](https://github.com/TheOriginalJosh/vscode-add-angular-native-files) vscode-add-angular-native-files
+
+## Feature Request?
+
+Open an issue at https://github.com/CoderTonyB/vscode-nativescript-generator/issues and I'll see what I can do about adding it.  Feel free to contribute to the project there as well!
 
 ## Changelog
 
