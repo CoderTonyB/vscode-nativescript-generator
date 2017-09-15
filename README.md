@@ -13,9 +13,9 @@ This extension allows you to add easily add boilerplate Nativescript/Angular fil
 
 ## Features
 
-Right click on a file or a folder in your current project. In the context menu is the option to generate a native script page
+Right click on a file or a folder in your current project. In the context menu is the option to add a native script page
 
-### generate a native script page
+### Add Nativescript Page
 
 This command adds the following files to your new folder (let's assume you typed in `home`):
 ```
