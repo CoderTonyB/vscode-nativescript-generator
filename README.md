@@ -1,4 +1,4 @@
-![](images/icon.png)
+![](https://raw.githubusercontent.com/toeknee581/vscode-nativescript-generator/master/images/icon.png)
 
 # vscode-nativescript-generator
 
@@ -24,7 +24,7 @@ home/home.component.html
 home/home.component.css
 ```
 
-![alt text](./images/AddPage.gif "Add Nativescript Page")
+![alt text](https://raw.githubusercontent.com/toeknee581/vscode-nativescript-generator/master/images/AddPage.gif "Add Nativescript Page")
 
 # Disclaimer
 
