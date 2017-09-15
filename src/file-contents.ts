@@ -18,8 +18,8 @@ export class FileContents {
             "\n" +
             "@Component({\n" +
             "\tselector: '" + inputName + "',\n" +
-            "\ttemplateUrl: './" + inputName + ".component.html',\n" +
-            "\tstyleUrls: ['./" + inputName + ".component.css']\n" +
+            "\ttemplateUrl: './pages/" + inputName + "/" + inputName + ".component.html',\n" +
+            "\tstyleUrls: ['./pages/" + inputName + "/" + inputName + ".component.css']\n" +
             "})\n" +
             "\n" +
             "export class " + inputUpperCase + "Component implements OnInit {\n" +

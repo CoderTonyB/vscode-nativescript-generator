@@ -13,7 +13,9 @@ Open an issue at https://github.com/CoderTonyB/vscode-nativescript-generator/iss
 
 ## Changelog
 
-## 0.0.1
+## 0.0.1 Initial Release
+## 0.0.6 changed .ts file paths so they default to ./pages/pagename/pagename.component.ts
+
 
 ## Features
 
